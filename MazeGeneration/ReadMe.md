@@ -1,8 +1,8 @@
-##Randomized Depth-First Search Maze
+## Randomized Depth-First Search Maze
 
 This maze generation algorithm uses a recursive approach called Randomized Depth-First Search on a hexagonal grid.
 
-##Recursive Implementation
+## Recursive Implementation
 The depth-first search algorithm for maze generation can be described using the following recursive routine:
 
 1. Given a current cell as a parameter.
