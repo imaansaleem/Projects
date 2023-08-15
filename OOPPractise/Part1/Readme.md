@@ -13,48 +13,42 @@ Create a class that you call `BookList` in which you put list as a private field
 
 ## Sample Run
 
-The user's entry is marked in boldface:
+Welcome to the book program!<br>
+Would you like to create a book object? (yes/no): yEs<br>
+Please enter the author, title, and the isbn of the book separated by /: Ericka Jones/Java made Easy/458792132<br>
+Got it!<br>
+Now, tell me if it is a bookstore book or a library book (enter BB for bookstore book or LB for library book): BLB<br>
+Oops! That's not a valid entry. Please try again: Bookstore<br>
+Oops! That's not a valid entry. Please try again: bB<br>
+Got it!<br>
+Please enter the list price of JAVA MADE EASY by ERICKA JONES: 14.99<br>
+Is it on sale? (y/n): y<br>
+Deduction percentage: 15%<br>
+Got it<br>
 
-Welcome to the book program!
-Would you like to create a book object? (yes/no): yEs
-Please enter the author, title, and the isbn of the book separated by /: Ericka Jones/Java made Easy/458792132
-Got it!
-Now, tell me if it is a bookstore book or a library book (enter BB for bookstore book or LB for library book): BLB
-Oops! That's not a valid entry. Please try again: Bookstore
-Oops! That's not a valid entry. Please try again: bB
-Got it!
-Please enter the list price of JAVA MADE EASY by ERICKA JONES: 14.99
-Is it on sale? (y/n): y
-Deduction percentage: 15%
-Got it
-Here is your bookstore book information
+Here is your bookstore book information<br>
+[458792132-JAVA MADE EASY by ERICKA JONES, $14.99 listed for $12.74]<br>
+Would you like to create a book object? (yes/no): yeah<br>
+I'm sorry but yeah isn't a valid answer. Please enter either yes or no: yes<br>
+Please enter the author, title, and the isbn of the book separated by /: Eric Jones/Java made Difficult/958792130<br>
+Got it!<br>
+Now, tell me if it is a bookstore book or a library book (enter BB for bookstore book or LB for library book): LB<br>
+Got it!<br>
+Here is your library book information<br>
+[958792130-JAVA MADE DIFFICULT by ERIC JONES-09.ERI.0]<br>
+Would you like to create a book object? (yes/no): yes<br>
+Please enter the author, title, and the isbn of the book separated by /: Erica Jone/Java made too Difficult/958792139<br>
+Got it!<br>
+Now, tell me if it is a bookstore book or a library book (enter BB for bookstore book or LB for library book): LB<br>
+Got it!<br>
+Here is your library book information<br>
+[958792139-JAVA MADE TOO DIFFICULT by ERICA JONE-86.ERI.9]<br>
+Would you like to create a book object? (yes/no): no<br>
+Sure!<br>
+Here are all your books…<br>
+Library Books (2)<br>
+[958792130-JAVA MADE DIFFICULT by ERIC JONES-09.ERI.0]<br>
+[958792139-JAVA MADE TOO DIFFICULT by ERICA JONE-86.ERI.9]<br>
+
+Bookstore Books (1)<br>
 [458792132-JAVA MADE EASY by ERICKA JONES, $14.99 listed for $12.74]
-Would you like to create a book object? (yes/no): yeah
-I'm sorry but yeah isn't a valid answer. Please enter either yes or no: yes
-Please enter the author, title, and the isbn of the book separated by /: Eric Jones/Java made Difficult/958792130
-Got it!
-Now, tell me if it is a bookstore book or a library book (enter BB for bookstore book or LB for library book): LB
-Got it!
-Here is your library book information
-[958792130-JAVA MADE DIFFICULT by ERIC JONES-09.ERI.0]
-Would you like to create a book object? (yes/no): yes
-Please enter the author, title, and the isbn of the book separated by /: Erica Jone/Java made too Difficult/958792139
-Got it!
-Now, tell me if it is a bookstore book or a library book (enter BB for bookstore book or LB for library book): LB
-Got it!
-Here is your library book information
-[958792139-JAVA MADE TOO DIFFICULT by ERICA JONE-86.ERI.9]
-Would you like to create a book object? (yes/no): no
-Sure!
-Here are all your books…
-Library Books (2)
-[958792130-JAVA MADE DIFFICULT by ERIC JONES-09.ERI.0]
-[958792139-JAVA MADE TOO DIFFICULT by ERICA JONE-86.ERI.9]
-Bookstore Books (1)
-[458792132-JAVA MADE EASY by ERICKA JONES, $14.99 listed for $12.74]
-Take care Now
-
-
-Your code should allow users to input and display a list of all books, leveraging the functionality of the `BookstoreBook` and `LibraryBook` classes.
-
-**Note:** Implement the classes and methods following the given requirements. The sample run above demonstrates the expected behavior of the classes and their methods.
