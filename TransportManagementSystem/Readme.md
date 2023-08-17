@@ -62,7 +62,7 @@ incorrect sort option. in case after the career name there is a word other than 
 
 ## p -> adds and lists stops: 
 Input format: p [ <stop-name> [ <latitude> <longitude> ] ]
-Output format without arguments: <stop-name>: <latitude> <longitude> <number-of-careers> for each stop and in the order of creation, one per row where <number-ofcareers> is the number of careers that stop at the stop. 
+Output format without arguments: <stop-name>: <latitude> <longitude> <number-of-careers> for each stop and in the order of creation, one per row where <number-of-careers> is the number of careers that stop at the stop. 
 Output format with one argument: <latitude> <longitude>. 
 If the command is invoked with three arguments, a new stop is created without generating data in the 
 output.
@@ -103,33 +103,33 @@ C function qsort and none of these names should appear in your code.
 Consider that the rows in the figure above are defined. 
 
 ## Command c: 
-# c
+### c
 The c command without arguments allows you to list all the rows in the system. 
 
-# c middle 
+### c middle 
 The c command followed by an existing career in the system allows you to list all the stops in the career from origin to destination. 
 
-# c middle inverse 
+### c middle inverse 
 Same as above, but the stops are listed from destination to origin. 
 
-# c down 
+### c down 
 The c command followed by a career that does not exist in the system allows you to create the new career. In this case there is nothing to show in the output.
 
 ## Command p:
-# p 
+### p 
 The p command without arguments allows you to list all the stops in the system. 
 
-# p C1 
+### p C1 
 The p command with an argument shows the latitude and longitude of the stop. 
 
-# p X1 2.5 45.6 
+### p X1 2.5 45.6 
 The p command with three arguments creates a new stop.
 
 ## Command l: 
-# l left X1 A1 0.5 2 
+### l left X1 A1 0.5 2 
 The l command allows you to add new links to a row. In this case, if X1 is the last stop in the row, then the new link is inserted at the end and A1 is the new last stop. Otherwise, if A1 is the origin of the row, 
 then the link is inserted at the beginning of the row and X1 becomes the new origin. If both conditions are true (insertion of a loop in the career), then the link is inserted at the end. 
 
 ## Command i: 
-# i 
+### i 
 The i command allows you to list the stops that correspond to career intersections.
