@@ -22,8 +22,7 @@ operations to be performed.
 ## Problem Specification
 
 The goal of the project is to have a public transport career management system. To do this, a set 
-of careers are created whose paths correspond to a sequence of connections between stops.
-![Example]([TransportManagementSystem/img.png](https://github.com/imaansaleem/Projects/blob/main/TransportManagementSystem/img.png)https://github.com/imaansaleem/Projects/blob/main/TransportManagementSystem/img.png)
-
+of careers are created whose paths correspond to a sequence of connections between stops.<br>
+![Example](TransportManagementSystem/img.png)
 
 
