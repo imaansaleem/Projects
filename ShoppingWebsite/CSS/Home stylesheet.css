@@ -1,0 +1,301 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    max-width: 1024px;
+    padding: 0 15px;
+	margin: 0 auto;
+}
+
+.logo p
+{
+	float: left;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+    padding-top: 30px;
+    font-weight: 400;	
+}
+.menu 
+{
+    font-size:19px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    float: right; 
+    padding-top: 40px;
+    letter-spacing: 1px;
+  
+}
+
+.menu li 
+{
+    margin-top: 0;
+    display: inline-block; 
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+
+}
+
+.menu li a:hover 
+{
+    color:#f25c54;
+    transition-duration: 1s;
+}
+.main-header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774)), url(../Images/Clothes.jpg);
+    background-size: cover;
+	width: 100%;
+	height: 660px;
+    background-repeat: no-repeat;
+}
+.main-header .container .content 
+{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    
+}
+.main-header .container .content p 
+{
+    font-weight: 300;
+    font-size:50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+}
+.main-header .container .content .button
+{
+    margin-top: 5%;
+    border: none;
+    font-size: 45px;
+    height: 70px;
+    width: 37%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    background-color: #f25c54;
+    color: #fff;
+     
+}
+.main-header .container .content .button:hover
+{
+    background-color:  #eb6b64;
+}
+.main .right-image
+{
+    margin-top: 5%;
+    background-image: url(../Images/main.jpg);
+    float: right;
+    height:500px;
+    width: 51%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-heading 
+{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 80px;
+    padding-top: 140px;
+    letter-spacing: 2px;
+    color: #312e2b;
+}
+.content-heading .sub-heading
+{
+    width: 40%;
+    margin-top: 1%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.main .left-image
+{
+    margin-top: 5%;
+    background-image: url(../Images/products.jpg);
+    float: left;
+    height:500px;
+    width: 51%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description
+{
+    width: 40%;
+    margin-top: 10%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.7;
+    float: left;
+    padding-left: 80px;
+}
+.location
+{
+    margin-top: 5%;
+    background-image: url(../Images/shop.jpg);
+    float: right;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location .rectangle 
+{
+    float:left;
+    height: 600px;
+    width: 48%;
+    background-color:#F5F5F5;
+}
+.location .rectangle .content
+{
+    width: 40%;
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-left: 15%;
+    color: #312e2b;
+}
+.location .rectangle .content .dir-button
+{
+    margin-top: 5%;
+    border: none;
+    font-size: 35px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    background-color: #f25c54;
+    color: #fff;
+    
+}
+.location .rectangle .content .dir-button:hover
+{
+    background-color:  #eb6b64;
+}
+#footer .footer-rectangle
+{
+    padding-top: 80%;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+
+}
+#footer .links
+{
+    margin-left: 5%;
+    padding-top: 70px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size:25px;
+    float: left;
+    width: 15%;
+    
+}
+#footer .links .footer-menu
+{
+    font-size:25px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 40px;
+    font-weight: 400;
+    padding-top: 30px;
+
+}
+
+#footer .links .footer-menu{
+    list-style-type:none;
+}
+
+#footer .links  .footer-menu li a 
+{
+    text-decoration: none;
+    color: #312e2b;
+}
+#footer .links  .footer-menu li a:hover
+{
+    color: #eb6b64;
+}
+#footer .lastest-news 
+{
+    margin-left: 20%;
+    margin-top: 250px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    
+}
+#footer .lastest-news .trend
+{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size:25px;
+    line-height: 1.7;
+    width: 40%;
+}
+#footer .subscribe
+{
+    margin-top: -25%;
+    margin-right: 10%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 51px;
+    color: #312e2b;
+    float: right;
+    
+}
+#footer .subscribe .newsletter-content
+{
+    font-weight:300; 
+}
+
+#footer .subscribe
+{
+    width: 30%;
+}
+input[type='email']
+{
+   width: 380px;
+   height: 30px;
+   font-size:19px;
+   padding: 10px 10px 10px 10px;
+   border: solid 1px #c5c5c5;
+   background-color: white;
+   border-radius: 4px;
+}
+.input-box .button
+{
+    margin-top: 20px;
+    border: none;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    background-color: #f25c54;
+    color: #fff;
+}
+.input-box .button:hover
+{
+    background-color:  #eb6b64;
+}
