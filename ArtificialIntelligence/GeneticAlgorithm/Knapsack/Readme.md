@@ -1,4 +1,4 @@
-### Knapsack Problem using Genetic Algorithm
+# Knapsack Problem using Genetic Algorithm
 ## Representation
 
 In the 0-1 knapsack problem, we have a set of items with associated weights and profit values, and we need to maximize the profit such that their weight does not exceed the knapsack’s weight-carrying capacity. One commonly used representation for this problem is a binary string representation. Each gene in the chromosome represents whether an item is included (1) or excluded (0) from the knapsack. The chromosome, therefore, represents a potential solution, indicating which items are selected for the knapsack.
