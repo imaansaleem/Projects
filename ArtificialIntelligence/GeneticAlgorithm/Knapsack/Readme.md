@@ -19,6 +19,5 @@ The replacement strategy determines how individuals from the current generation 
 
 - **Steady-State Replacement:** Involves creating the next generation of individuals by selectively replacing a subset of the current population with newly generated offspring. It can include Elitism, which involves selecting a portion of the fittest individuals in the population and directly copying them to the next generation without undergoing any genetic operators like crossover or mutation. Alternatively, it is based on a competitive strategy, where the newly generated offspring compete with a subset of the current population for survival. The competition is usually based on fitness values, and the fittest individuals, whether from the offspring or the current population, are selected to form the updated population.
 
-For the 0-1 knapsack problem, let’s choose the generational replacement strategy.
+In this code we choose the generational replacement strategy.
 
-Feel free to include this information in your `README.md` file to provide an explanation of the representation, fitness evaluation, selection, and replacement strategies used in the context of the 0-1 knapsack problem.
