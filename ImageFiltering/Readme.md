@@ -2,7 +2,7 @@
 
 ## Task 1
 Implement the sliding-sum-of-products for a grayscale image. Name the function myConvolution(k,im,‘b’) ; where ‘k’ , ‘im’ , and ‘b’ are the kernel, image, and the boundary augmentation handling code, respectively. 
-## Note: 
+### Note: 
 You should implement this function from scratch, providing user with an option to input the following boundary handling techniques: 
 1. Zero padding
 2. Reflection
