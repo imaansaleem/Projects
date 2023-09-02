@@ -16,6 +16,18 @@ Convolve the image `im_q1` with all the masks in (b) and display the original im
 ### Task 2
 You can blur an image using a filter ‘B’ and find the gradient using the filter ‘G’, where ‘B’ and ‘G’ are given as 
 follows:<br><br>
+
+Filter B:
+
+\[
+\frac{1}{9}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}
+\]
+
 Filter B:<br>
 1/9 [1 1 1]<br>
 [1 1 1]<br>
@@ -42,7 +54,7 @@ a) **Laplacian and Scaling**
 
 Using the provided image `im_q3`, do the following:
 
-- Compute the Laplacian of the image with 3 × 3 900 as well as 450 fully isotropic filters and display the results with proper scaling.
+- Compute the Laplacian of the image with 3 × 3 and 90 degree as well as 45 degree fully isotropic filters and display the results with proper scaling.
 
 b) **Image Sharpening**
 
