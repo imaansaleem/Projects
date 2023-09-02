@@ -16,12 +16,14 @@ Convolve the image `im_q1` with all the masks in (b) and display the original im
 ### Task 2
 You can blur an image using a filter ‘B’ and find the gradient using the filter ‘G’, where ‘B’ and ‘G’ are given as 
 follows:<br><br>
-B = 1/9 [1 1 1]<br>
-        [1 1 1]<br>
-        [1 1 1]<br><br>
-𝐺 = [−1 0 1]<br>
-    [−1 0 1]<br>
-    [−1 0 1]<br>
+Filter B:<br>
+1/9 [1 1 1]<br>
+[1 1 1]<br>
+[1 1 1]<br><br>
+Filter 𝐺<br>
+[−1 0 1]<br>
+[−1 0 1]<br>
+[−1 0 1]<br>
     
 a) **Linearity of Operations**
 
