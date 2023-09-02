@@ -1,6 +1,6 @@
 # Gaussian filter
 
-### Q.1. 
+### Task 1 
 a) **Generate a 2D Symmetric Gaussian Blurring Filter**
 
 Write a function `my2DGaussian(w, σ)` to generate a 2D symmetric Gaussian blurring filter of a given size 'w' and standard deviation 'σ'. The coefficients of the mask you return must be integers with the whole Gaussian shape captured within the size 'w'.
@@ -13,7 +13,16 @@ c) **Convolve and Display**
 
 Convolve the image `im_q1` with all the masks in (b) and display the original image and all the blurred images in juxtaposition.
 
-### Q.2. 
+### Task 2
+You can blur an image using a filter ‘B’ and find the gradient using the filter ‘G’, where ‘B’ and ‘G’ are given as 
+follows:
+B = 1/9 [1 1 1]
+        [1 1 1]
+        [1 1 1]
+𝐺 = [−1 0 1]
+    [−1 0 1]
+    [−1 0 1]
+    
 a) **Linearity of Operations**
 
 Are the above operations linear? If so, why?
@@ -26,7 +35,7 @@ c) **Single Filter 'S'**
 
 If you are asked to apply one single filter 'S', instead of two filters in succession, how would you find 'S'?
 
-### Q.3. 
+### Task 3
 a) **Laplacian and Scaling**
 
 Using the provided image `im_q3`, do the following:
