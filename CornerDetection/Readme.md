@@ -10,4 +10,4 @@ Apply the transformation recovered in part ‘a’ to Image - 1 to get the outpu
 Implement Corner Detection algorithm discussed in the class. Make your implementation flexible by letting the user choose among different cornerness metrics
 
 # Corner Detection
-Implement Corner Detection algorithm discussed in the class. Make your implementation flexible by letting the user choose among different cornerness metrics
+Implement Corner Detection algorithm. Make your implementation flexible by letting the user choose among different cornerness metrics
