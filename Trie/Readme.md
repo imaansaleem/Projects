@@ -43,3 +43,8 @@ For each inquiry event (`3 p`), print the number of mangos eaten by orangutans w
 1 WILLIAN 2
 3 WILL
 
+## Sample Output
+8
+0
+5
+25
