@@ -124,3 +124,28 @@ Name           WILLIAM   WILL     WILLIAN   WILLY
 Mangos         4         6       9         10
 ```
 
+## Sixth Event
+
+- **Description:** WILL changes their name to MATT.
+- **Explanation:** The orangutan named "WILL" changes its name to "MATT." The names and mangos for the orangutans are updated as follows:
+
+```
+Name           WILLIAM   MATT    WILLIAN   WILLY
+Mangos         4         6       11        10
+```
+
+## Seventh Event
+
+- **Description:** WILLIAN gets 2 more mangos.
+- **Explanation:** The orangutan named "WILLIAN" receives 2 more mangos. The names and mangos for the orangutans remain the same:
+
+```
+Name           WILLIAM   MATT    WILLIAN   WILLY
+Mangos         4         6       11        10
+```
+
+## Eighth Event
+
+- **Description:** We want to know how many mangos have been eaten by orangutans whose name starts with "WILL." The valid orangutans are WILLIAM, WILLIAN, and WILLY. The total mangos eaten is 4 + 11 + 10 = 25.
+
+---
