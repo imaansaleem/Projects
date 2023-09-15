@@ -67,3 +67,60 @@ There are 10 orangutans, but we only ever hear about 2 of them (initially BOB an
 **Fourth Event:**
 - We want to know how many mangos have been given to orangutans whose names start with "ALICE." We do not know of any orangutans with names that start with "ALICE" that have been given a mango. Therefore, the answer is 0.
 
+## Fifth Event
+
+- **Description:** BETTY is changing their name to ALICE. This means that "BETTY" has eaten 0 mangos, and ALICE has eaten 3.
+- **Explanation:** The orangutan named "BETTY" has changed its name to "ALICE." As "BETTY" did not eat any mangos, the mangos attributed to "BETTY" are 0. Meanwhile, "ALICE" has eaten 3 mangos.
+
+## Sixth Event
+
+- **Description:** We want to know how many mangos have been given to orangutans whose name starts with "B." BOB, who received 5 mangos, has a name that starts with the letter B, but since BETTY is no longer BETTY, we don't count them. Because of this, the total mangos given is 5.
+- **Explanation:** The inquiry is about orangutans whose names start with the letter "B." Although BOB has received 5 mangos and initially "BETTY" was counted as well, after the name change in the previous event, "BETTY" is now "ALICE," so we only consider BOB. Therefore, the total mangos given to orangutans whose names start with "B" is 5.
+
+---
+
+## Case 2
+
+- **Description:** There are 4 orangutans and 8 events.
+- **Explanation:** In this case, there are 4 orangutans and 8 events, with various feedings and name changes.
+
+### First Event
+
+- **Description:** WILLIAM gets 4 mangos.
+- **Explanation:** The orangutan named "WILLIAM" receives 4 mangos.
+
+### Second Event
+
+- **Description:** WILL gets 6 mangos.
+- **Explanation:** The orangutan named "WILL" receives 6 mangos. At this point, the names and mangos for the orangutans are as follows:
+
+```
+Name           WILLIAM   WILL     ???      ???
+Mangos         4         6       0        0
+```
+
+### Third Event
+
+- **Description:** We want to know how many mangos orangutans whose names start with "WILLI" got. In this case, only WILLIAM meets the criteria. They got 4 mangos.
+- **Explanation:** The inquiry is about orangutans whose names start with "WILLI." Among the orangutans, only "WILLIAM" matches this criteria, and they have received 4 mangos.
+
+### Fourth Event
+
+- **Description:** We feed WILLIAN 9 mangos.
+- **Explanation:** The orangutan named "WILLIAN" receives 9 mangos. The names and mangos for the orangutans are updated as follows:
+
+```
+Name           WILLIAM   WILL     WILLIAN   ???
+Mangos         4         6       9         0
+```
+
+### Fifth Event
+
+- **Description:** We feed WILLY 10 mangos.
+- **Explanation:** The orangutan named "WILLY" receives 10 mangos. The names and mangos for the orangutans are updated as follows:
+
+```
+Name           WILLIAM   WILL     WILLIAN   WILLY
+Mangos         4         6       9         10
+```
+
