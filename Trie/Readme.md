@@ -48,4 +48,7 @@ For each inquiry event (`3 p`), print the number of mangos eaten by orangutans w
 0
 5
 25
-x
+
+Explanation
+Case 1
+There are 10 orangutans, but we only ever hear about 2 of them (initially BOB and BETTY).
