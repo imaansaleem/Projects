@@ -24,3 +24,22 @@ Assume that no orangutan has eaten before the given events.
 
 ## Output
 For each inquiry event (`3 p`), print the number of mangos eaten by orangutans whose names start with the given character sequence `p`.
+
+## Sample Input
+10 6
+1 BOB 5
+1 BETTY 3
+3 B
+3 ALICE
+2 BETTY ALICE
+3 B
+4 8
+1 WILLIAM 4
+1 WILL 6
+3 WILLI
+1 WILLIAN 9
+1 WILLY 10
+2 WILL MATT
+1 WILLIAN 2
+3 WILL
+
