@@ -49,6 +49,21 @@ For each inquiry event (`3 p`), print the number of mangos eaten by orangutans w
 5
 25
 
-Explanation
-Case 1
+## Explanation
+
+### Case 1
+
 There are 10 orangutans, but we only ever hear about 2 of them (initially BOB and BETTY).
+
+**First Event:**
+- BOB gets fed 5 mangos.
+
+**Second Event:**
+- BETTY gets fed 3 mangos.
+
+**Third Event:**
+- We want to know how many mangos have been given to orangutans whose names start with "B." Both BOB, who received 5 mangos, and BETTY, who received 3 mangos, have names that start with the letter "B." Thus, the total mangos given is 8.
+
+**Fourth Event:**
+- We want to know how many mangos have been given to orangutans whose names start with "ALICE." We do not know of any orangutans with names that start with "ALICE" that have been given a mango. Therefore, the answer is 0.
+
