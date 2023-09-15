@@ -149,3 +149,42 @@ Mangos         4         6       11        10
 - **Description:** We want to know how many mangos have been eaten by orangutans whose name starts with "WILL." The valid orangutans are WILLIAM, WILLIAN, and WILLY. The total mangos eaten is 4 + 11 + 10 = 25.
 
 ---
+
+# Hints
+
+## Graph: Use a Trie
+
+To solve this problem efficiently, you can use a Trie data structure. The Trie should index based on the name of the orangutan. Each node in the Trie should represent a character in the orangutan's name.
+
+## Recommended Function: Trie Functionality
+
+The functionality of the Trie will be helpful if you implement the following operations:
+
+1. Compute the sum for a subtree.
+2. Increment a node's value, if it exists, or create a node if it does not.
+
+## Node Data: Store Subtree Sum
+
+It's recommended to store in each Trie node the sum of all descendants in the subtree rooted at that node. Storing this value makes computing the output for event type 3 (inquiries) fast. When you update a node, you also need to update all ancestor nodes if you store the subtree sum.
+
+## Struct Definition Recommendation
+
+You can define a struct for Trie nodes like this:
+
+```cpp
+struct TrieNode {
+    TrieNode* children[26]; // Assuming uppercase Latin characters ('A' through 'Z')
+    int subtreeSum;
+    int nodeTotal;
+};
+```
+
+- `children`: An array to store child nodes for each character in the alphabet.
+- `subtreeSum`: The sum of all descendant nodes' values in the subtree rooted at this node.
+- `nodeTotal`: The total value associated with this specific node.
+
+## Name Change
+
+When an orangutan changes its name, make sure to remove its sum from the old subtree. You can do this by subtracting its original value (mangos eaten) from the old name's Trie node and adding the same value to the new name's Trie node.
+
+By following these hints and organizing your data structure and operations effectively, you should be able to efficiently solve the problem.
